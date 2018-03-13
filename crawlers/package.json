@@ -1,5 +1,5 @@
 {
-  "name": "crawlers for graces",
+  "name": "graces-crawler",
   "main": "all.js",
   "version": "0.0.1",
   "private": true,
