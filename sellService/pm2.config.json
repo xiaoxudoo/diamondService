@@ -1,0 +1,25 @@
+{
+  "name": "eggjs-graces-service",
+  "script": "./index.js",
+  "cwd": "./",
+  "args": [
+    "2"
+  ],
+  "watch": [
+    "./app",
+    "./config"
+  ],
+  "ignore_watch": [
+    "node_modules",
+    "logs"
+  ],
+  "watch_options": {
+    "followSymlinks": false
+  },
+  "error_file" : "~/logs/eggjs-graces-service/app-err.log",
+  "out_file"   : "~/logs/eggjs-graces-service/app-out.log",
+  "env": {
+    "EGG_SERVER_ENV": "prod",
+    "NODE_ENV": "production"
+  }
+}

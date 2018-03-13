@@ -1,6 +1,6 @@
 {
   "name": "crawlers for graces",
-  "main": "update.js",
+  "main": "all.js",
   "version": "0.0.1",
   "private": true,
   "description": "网络爬虫与数据库操作",
